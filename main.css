@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.letter-s-with-squares {
+  margin: 30px auto 0;
+  width: 250px;
+}
+
+.row {
+  width: 250px;
+}
+
+.first-row {
+  position: relative;
+}
+
+.first-row, .third-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.large-square {
+  background: white;
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+}
+
+.small-square {
+  background: #57D497;
+  border: 1px solid black;
+  height: 20px;
+  position: absolute;
+  right: -10px;
+  top: 15px;
+  width: 20px;
+}
+
+.space-above {
+  margin-top: 30px;
+}
+
+.space-right {
+  margin-right: 50px;
+}
+
+.push-middle {
+  margin-left: 100px;
+}
+
+.push-right {
+  margin-left: 200px;
+}
+
+.blue {
+  background: #33C6E4;
+}
