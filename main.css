@@ -13,15 +13,11 @@ html, body {
   width: 250px;
 }
 
-.row {
-  width: 250px;
-}
-
-.first-row {
+.small-square-container {
   position: relative;
 }
 
-.first-row, .third-row {
+.flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
