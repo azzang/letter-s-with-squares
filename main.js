@@ -7,11 +7,9 @@
 
     for (var i = 1; i <= 10; i++) {
 
-      (function(delayMultiple) {
-        setTimeout(function() {
-          $(stack.pop()).removeClass('blue');
-        }, delayMultiple * 300);
-      })(i);
+      setTimeout(function() {
+        $(stack.pop()).removeClass('blue');
+      }, i * 300);
 
     }
   }
