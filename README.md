@@ -1,2 +1,2 @@
-# Letter S With Squares
+# Letter S with Squares
 See link above for live demo.
