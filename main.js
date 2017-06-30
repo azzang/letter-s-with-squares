@@ -24,7 +24,7 @@
         stack.splice(stack.indexOf(this), 1);
       }
 
-      if ($('.blue').length === 9) { // if all large squares are blue
+      if (stack.length === 9) { // if all large squares are blue
         unwindStack();
       }
     }
